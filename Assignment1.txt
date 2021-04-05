@@ -1,8 +1,0 @@
-import matplotlib.pyplot as plt
-Number_of_defective_bulbs_drawn=[0,1,2,3,4]
-Probability=[0.41,0.41,0.15,0.025,0.0016]
-plt.bar(Number_of_defective_bulbs_drawn,Probability)
-plt.xlabel('Number of defective bulbs drawn')
-plt.ylabel('Probability')
-plt.title('Probability distribution of the number of defective bulbs')
-plt.show()
