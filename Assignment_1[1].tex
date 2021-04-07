@@ -130,13 +130,13 @@ columns=fullflexible
 \renewcommand{\thetable}{\theenumi}
 Download all python codes from 
 \begin{lstlisting}
-https://github.com/ASHWITHA-11008/Assignment-1/blob/main/assignment_1.py
+https://github.com/ASHWITHA-11008/Assignment-1/blob/main/assignment_1%20(2).py
 \end{lstlisting}
 %
 and latex-tikz codes from 
 %
 \begin{lstlisting}
-https://github.com/ASHWITHA-11008/Assignment-1/blob/main/Assignment%201.zip
+https://github.com/ASHWITHA-11008/Assignment-1/blob/main/Assignment_1%5B1%5D.tex
 \end{lstlisting}
 
 \textbf{Question-1.13}
@@ -148,44 +148,21 @@ From a lot of 30 bulbs which include 6 defectives, a sample of 4 bulbs is drawn 
 Given 30 bulbs which include 6 defectives and 4 bulbs are drawn at random with replacement.\\
 
 Let us assume a random variable X:\\
-X=Number of defective bulbs drawn\\
+X=Number of defective bulbs drawn.\\
+p=probability of drawing a defective bulb.\\
+q=1-p\\
 
 Binomial distribution:
 
-$P(K)=\Comb{n}{k}\times(p^k)\times(q^{n-k})$
-
-Here,
-
 $P(X)=$\Comb{n}{x}\times(p^x)\times(q^{n-x})$\\
 
-Probability of drawing zero bulbs
-\begin{align*}
-P(0) & = \Comb{4}{0}\times({\frac{6}{30}}^0)\times({\frac{24}{30}}^{4-0})\\
-      & = 1\times{\frac{24^4}{30^4}}
-\end{align*}\\
 
-Probability of drawing one defective bulb
 \begin{align*}
-P(1) & = \Comb{4}{1}\times({\frac{6}{30}}^1)\times({\frac{24}{30}}^{4-1})\\
-      & = 4\times{\frac{6}{30}}\times{\frac{24^3}{30^3}}
-\end{align*}\\
-
-Probability of drawing two defective bulbs
-\begin{align*}
-P(2) & = \Comb{4}{2}\times({\frac{6}{30}}^2)\times({\frac{24}{30}}^{4-2})\\
-      & = 6\times{\frac{6^2}{30^2}}\times{\frac{24^2}{30^2}}
-\end{align*}\\
-
-Probability of drawing three defective bulbs
-\begin{align*}
-P(3) & = \Comb{4}{3}\times({\frac{6}{30}}^3)\times({\frac{24}{30}}^{4-3})\\
-      & = 6\times{\frac{6^3}{30^3}}\times{\frac{24}{30}}
-\end{align*}\\
-
-Probability of drawing four defective bulbs
-\begin{align*}
-P(4) & = \Comb{4}{4}\times({\frac{6}{30}}^4)\times({\frac{24}{30}}^{4-4})\\
-      & = 1\times{\frac{6^4}{30^4}}
+P(X=0) & = 1\times{\frac{24^4}{30^4}}=0.409\\
+P(X=1) & = 4\times{\frac{6}{30}}\times{\frac{24^3}{30^3}}=0.409\\
+P(X=2) & = 6\times{\frac{6^2}{30^2}}\times{\frac{24^2}{30^2}}=0.154\\
+P(X=3) & = 4\times{\frac{6^3}{30^3}}\times{\frac{24}{30}}=0.02\\
+P(X=4) & = 1\times{\frac{6^4}{30^4}}=0.016
 \end{align*}
 
 
